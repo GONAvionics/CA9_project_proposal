@@ -8,8 +8,14 @@ The project can include:
 \end{itemize}
 
 \begin{description}
-  \item[Nonlinear Control:] A nonlinear control strategy is designet and verified through simulations and hopefully in the prototype.
-  \item[Supervisory Control System:] A supervisory control strategy is proposed; when a cubesat satellite is operated, e.g. with several attitude sensitive payloads it might be beneficial to look into a method og optimising after e.g. the power budget which is often limited in a cubesat mission.
-  \item[Prototype Design:] 
-  \item[Test stand:] 
+  \item[Nonlinear Control:] A nonlinear control strategy is designet and verified through simulations and hopefully in a prototype. Depending on the mission, different actuators are relevant, this includes:
+    \begin{itemize}\tightlist
+      \item Magnetic torquers
+      \item Reaction wheels
+      \item Pulsed plasma thruster (PPT)
+    \end{itemize}
+    A combination of magnetic torquers and reaction wheels can be considered for attitude control and if the mission requires an Orbit Control Systems (OCS) a PPT might be implemented, this however greatly influences the ACS af the satellite and can be investigated.
+  \item[Supervisory Control System:] A supervisory control strategy is proposed; when a cubesat satellite is operated, e.g. with several attitude sensitive payloads it might be beneficial to look into a method of optimising after e.g. the power budget which is often limited in a cubesat mission. This can make the spacecraft (SC) more autonomous because this makes it posible for the SC to perform the actions in its flightplanner taking the power constraints in consideration.
+  \item[Prototype Design:] An early prototype of the ACS board can be manufactured in order to verify the control algorithms.
+  \item[Test stand:] In order to verify the control algorithms a test stand needs to be manufactured.
 \end{description}
